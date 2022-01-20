@@ -5,9 +5,10 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: tanzu-java-web-app
+    apps.tanzu.vmware.com/has-tests: true
 spec:
   source:
     git:
-      url: https://gitea.apps.kubeages.com/ages/tanzu-java-web-app
+      url: https://github.com/kubeages/tanzu-java-web-app
       ref:
-        branch: master
+        branch: main
