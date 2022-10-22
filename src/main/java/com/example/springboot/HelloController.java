@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot + Tanzu! This app is running on VMware Tanzu Application Platform 1.3. Coding,building and deploying in real-time! ";
+		return "Greetings from Spring Boot + Tanzu! This app is running on VMware Tanzu Application Platform 1.3. Coding,building and deploying in real-time!";
 	}
 
 }
