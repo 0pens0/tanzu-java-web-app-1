@@ -21,7 +21,7 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("Greetings from Spring Boot + Tanzu! This app is running on VMware Tanzu Application Platform 1.3. Coding,building and deploying in real-time!", controller.index());
+        assertEquals("Greetings from Spring Boot + Tanzu!", controller.index());
 
         mockMvc
             .perform(get("/"))
