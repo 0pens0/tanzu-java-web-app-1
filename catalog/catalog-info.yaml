@@ -4,8 +4,8 @@ metadata:
   name: tanzu-java-web-app
   description: Tanzu Java Web App
   links:
-    - url: https://dashboard.example.com
-      title: tanzu-java-web-app.apps.tap.kubeagesaz.com
+    - url: http://tanzu-java-web-app.apps.tap.kubeagesaz.com
+      title: tanzu-java-web-app
       icon: dashboard  
   tags:
     - app-accelerator
