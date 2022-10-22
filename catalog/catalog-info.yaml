@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: tanzu-java-web-app
   description: Tanzu Java Web App
+  links:
+    - url: https://dashboard.example.com
+      title: tanzu-java-web-app.apps.tap.kubeagesaz.com
+      icon: dashboard  
   tags:
     - app-accelerator
     - java
