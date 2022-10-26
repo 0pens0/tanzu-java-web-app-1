@@ -10,7 +10,11 @@ spec:
   params:
   - name: annotations
     value:
-      autoscaling.knative.dev/minScale: "1"
+      autoscaling.knative.dev/metric: "rps"
+      autoscaling.knative.dev/target: "10"
+      autoscaling.knative.dev/window: "10s"
+      autoscaling.knative.dev/max-scale: "5"
+      autoscaling.knative.dev/min-scale: "1"
   source:
     git:
       ref:
